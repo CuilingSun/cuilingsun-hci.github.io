@@ -61,10 +61,8 @@ author:
   name: "Cuiling Sun"
   avatar: "/assets/images/profile.jpg"
   bio: "Student at Mount Holyoke College"
+  email: "sun25c@mtholyoke.edu"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "sun25c@mtholyoke.edu"
     # - label: "Website"
     #   icon: "fas fa-fw fa-link"
     #   url: "https://"

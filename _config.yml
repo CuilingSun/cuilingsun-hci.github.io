@@ -106,17 +106,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _projects
-  - scope:
-      path: "_projects"
-      type: projects
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
+
+project_archive:
+  type: posts
+  path: /projects/
 
 category_archive:
   type: liquid

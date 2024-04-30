@@ -1,6 +1,7 @@
 ---
 title: "Project 3"
-categories: Project
+categories:
+  - Project
 tags:
   - Post Formats
   - link

@@ -1,9 +1,11 @@
 source "https://rubygems.org"
 
 gem "github-pages", group: :jekyll_plugins
-
+gem 'faraday', '~> 2.7', '>= 2.7.11'
 gem "tzinfo-data"
-gem "wdm", "~> 0.1.0" if Gem.win_platform?
+gem 'faraday-retry'
+gem "jekyll", "~> 3.9"
+gem "kramdown-parser-gfm", "~> 1.1"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
@@ -15,3 +17,6 @@ group :jekyll_plugins do
   gem "jekyll-include-cache"
   gem "jekyll-algolia"
 end
+
+
+gem "webrick", "~> 1.8"
